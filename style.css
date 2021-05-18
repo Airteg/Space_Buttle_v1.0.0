@@ -1,0 +1,67 @@
+.universe {
+	padding: 0;
+	margin: 0;
+	background: url(/img/back1.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+
+#info {
+	position: absolute;
+	color: yellow;
+	right: 0px;
+	top: 0px;
+	border: red solid 1px;
+}
+
+.pco {
+	position: absolute;
+	width: 110px;
+	height: 98px;
+	background-image: url(/img/pko.png);
+	background-position: center center;
+	/* top: calc(100vh - 110px); */
+}
+
+.enemy {
+	position: absolute;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.e_l_01 {
+	background-image: url(/img/enemy_01_l.png);
+	width: 163px;
+	height: 51px;
+}
+
+.e_r_01 {
+	background-image: url(/img/enemy_01_r.png);
+	width: 163px;
+	height: 47px;
+}
+
+.e_l_02 {
+	background-image: url(/img/enemy_02_l.png);
+	width: 163px;
+	height: 51px;
+}
+
+.e_r_02 {
+	background-image: url(/img/enemy_02_r.png);
+	width: 163px;
+	height: 51px;
+}
+
+.rocket {
+	position: absolute;
+	width: 10px;
+	height: 20px;
+	background-image: url(/img/rocket.png);
+	background-size: contain;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
